@@ -1,38 +1,42 @@
-# 海外红人顾问.skill
+# 海外红人顾问.skill - Summary
 
-This is an AI-powered skill that distills Wayne's 5-year overseas influencer marketing expertise into a usable Claude Code plugin. Wayne is an 8-year overseas marketing veteran and KOL operations specialist, primarily in apparel and consumer electronics (3C) categories.
+This is an AI-powered skill that distills overseas influencer marketer Wayne's decision frameworks into a usable Claude Code plugin. Wayne has 8 years in overseas marketing, with 5 years focused on KOL operations across apparel and 3C electronics.
 
 ## Key Components
 
-**Creator Authenticity Verification:**
-- Comment quality analysis: detect fake engagement via meaningless praise and emoji spam
-- Platform-specific fraud patterns: TikTok inflates views, Instagram inflates followers
-- Data-driven screening criteria: median video plays, posting frequency, commercial collaboration history
+**5 Creator Vetting Rules:**
+- Comment quality over follower count: fake accounts flood comments with emojis and hollow praise
+- TikTok fraud inflates views; Instagram fraud inflates followers — different tells, same intent
+- Use median plays (not average) across last 10 videos to filter outlier-inflated accounts
+- Commercial collaboration history signals content professionalism
+- Active within 15 days; audience demographics match target market
 
-**Pricing & Negotiation System:**
-- Reference rate table across 5 creator tiers (Nano to Mega) for TikTok and Instagram
-- Pricing factors ranked by impact: country > industry > content volume > timing
-- Mid-tier creators (100K–500K) identified as hardest to negotiate — strategies for each scenario
-- Three negotiation scripts: long-term promise, package deal, social proof
-- US creator-specific tactic: state payment terms in the first email
+**6 Pricing & Negotiation Principles:**
+- Rate benchmark: country > industry > volume > timing — US/EU creators cost 2x+ vs Southeast Asia
+- Mid-tier (100K–500K) is the hardest tier to negotiate: self-aware, unmanaged, price on instinct
+- For overpriced quotes: combine package deal + commission offer + past campaign results, then walk away if needed
+- Product gifting only works on nano/KOC — don't try it on mid-tier and above
+- US creators: put the dollar amount in the first email, not the third
+- Never criticize engagement data during negotiation — compliment first, counter second
 
-**Brand Brief Writing:**
-- 9-module Brief structure: Brand Tone / Information / Campaign Purpose / Deliverables / Key Ideas / Caption / Examples / Payment / Copyrights
-- Tier-based writing strategy: strict scripts for nano creators, creative freedom for KOLs
-- Hard rules: max 3 key selling points, max 2 revision rounds, no major rewrites
+**Brief Writing Framework:**
+- 9-module structure: Brand Tone / Info / Campaign Purpose / Deliverables / Key Ideas / Caption / Examples / Payment / Copyrights
+- Nano creators: strict brief + reference videos to copy; KOL and above: give direction, not instructions
+- Cap key selling points at 3; cap revision rounds at 2, minor edits only
+- Brief constraint and content quality have an inverse relationship — loosen early, tighten later
 
-**Campaign Strategy Framework:**
-- CPM-based budget calculation method
-- 3-phase campaign model: Content Exploration → Viral Content Creation → Reach Amplification
-- True KPI for influencer marketing: product search volume + product page UV (not GMV)
+**Campaign Strategy System:**
+- CPM model: past views-to-sales ratio → target impressions → budget required
+- 3-phase arc: Content Exploration (KOC 80%) → Viral Creation (KOC 60%) → Reach Amplification (KOL 60%)
+- True influencer KPIs: branded search volume + product page UV — not GMV, not ROAS
 
 **Competitor Research Method:**
-- 4-step process: Select → Product → Creators → Content
-- Tool stack: Nox, EasyKOL, TikTok Creator Marketplace, Google Trends
+- 4-step loop: select competitors → analyze products → map creator matrix → extract content patterns
+- Tools: Nox, EasyKOL, TikTok Creator Marketplace, Google Trends
 
 ## How It Works
 
-The skill trains Claude to respond like Wayne analyzing overseas influencer marketing decisions. Rather than giving generic advice, it applies Wayne's actual decision frameworks to specific scenarios — pricing negotiation, creator vetting, brief writing, and campaign planning. Responses follow his style: lead with a verdict, back it with data, close with the next action.
+The skill trains Claude to respond like Wayne evaluating real influencer marketing decisions. Rather than surface-level advice, it applies Wayne's actual vetting criteria, negotiation playbooks, and brief-writing logic to your specific scenario. Responses lead with a verdict, back it with reasoning, and end with a next action.
 
 ## Installation & Use
 
@@ -41,14 +45,5 @@ npx skills add waynefu2020/kol-advisor-skill
 ```
 
 Then prompt Claude with `/kol-advisor` followed by your scenario.
-
-**Example prompts:**
-- `/kol-advisor This TikTok creator has 80K followers, 1.2% engagement rate, and is asking $3,000 per video. Worth it?`
-- `/kol-advisor Write a brief for a Bluetooth earphones campaign targeting US college students`
-- `/kol-advisor The creator's comment section is full of fire emojis and "amazing!" — is this account legit?`
-
-## About
-
-Built from Wayne's knowledge base: 5 years of hands-on KOL operations across Southeast Asia, North America, and Latin America, covering 3C electronics and apparel brands.
 
 The project was auto-generated by [Nuwa.skill](https://github.com/anthropics/nuwa-skill), a framework for distilling thought leaders' cognitive patterns into reusable AI skills.

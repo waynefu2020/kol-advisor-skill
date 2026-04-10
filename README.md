@@ -1,5 +1,7 @@
 # 海外红人顾问.skill - Summary
 
+**[中文版](README_CN.md) | English**
+
 This is an AI-powered skill that distills overseas influencer marketer Wayne's decision frameworks into a usable Claude Code plugin. Wayne has 8 years in overseas marketing, with 5 years focused on KOL operations across apparel and 3C electronics.
 
 ## Key Components

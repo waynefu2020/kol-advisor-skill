@@ -1,4 +1,4 @@
-# 海外红人顾问.skill - Summary
+# KOL Advisor.skill - Summary
 
 **[中文版](README_CN.md) | English**
 
